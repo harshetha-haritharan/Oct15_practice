@@ -44,7 +44,7 @@ fivenum(Approved_Bonds$Percentage)
 #It has a median of 65.08%.
 
 #4a. Is the margin a bond was approved by related to its cost? Answer this question, citing the appropriate descriptive statistic. 
-cor(Approved_Bonds$Amount,Approved_Bonds$Percentage)
+round(cor(Approved_Bonds$Amount,Approved_Bonds$Percentage), 3)
 #The margin a bond was approved by is not related to its cost because the correlation Coefficient is 0.000559102 which indicates there is almost no linear correlation between the margin a bond was approved and its cost. 
 
 #4b. Use your subset from #3 to create a graph to display this relationship.
