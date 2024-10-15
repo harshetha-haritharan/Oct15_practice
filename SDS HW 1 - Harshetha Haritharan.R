@@ -1,5 +1,5 @@
 #1a. How many of these bonds were approved by voters?
-length(Bonds[Bonds$Result=="Carried",11])
+length(Bonds[Bonds$Result=="Carried",10])
 #7210 bonds were approved by voters. 
 
 #1b. How many were defeated?
